@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.telusko.twodarray.Launch1&apos; to &apos;Regular2DArr&apos;&#x0D;&#x0A;- Original project: &apos;arrays&apos;&#x0D;&#x0A;- Original element: &apos;com.telusko.twodarray.Launch1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.telusko.twodarray.Regular2DArr&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Launch1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.telusko.twodarray{Launch1.java[Launch1" matchStrategy="1" name="Regular2DArr" qualified="false" references="true" similarDeclarations="false" stamp="1714314702391" textual="false" version="1.0"/>
+</session>

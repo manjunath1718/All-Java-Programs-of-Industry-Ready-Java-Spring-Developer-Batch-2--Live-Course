@@ -1,0 +1,15 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class SecondController {
+
+	public String getMessage(Model model) {
+		
+		model.addAttribute("focus", "Without focus we cannot master anything");
+		return "focus";		
+	}
+	
+}

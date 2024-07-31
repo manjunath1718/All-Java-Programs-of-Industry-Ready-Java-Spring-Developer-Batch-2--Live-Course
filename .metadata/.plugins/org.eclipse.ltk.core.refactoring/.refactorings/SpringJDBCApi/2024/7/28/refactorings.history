@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Implementers.java&apos; to &apos;SpringDataJDBC/src/main/java/com.telusko.SpringDataJDBC.dao&apos;&#x0D;&#x0A;- Original project: &apos;SpringJDBCApi&apos;&#x0D;&#x0A;- Destination element: &apos;SpringDataJDBC/src/main/java/com.telusko.SpringDataJDBC.dao&apos;&#x0D;&#x0A;- Original element: &apos;com.telusko.SpringJDBCApi.dao.Implementers.java&apos;" description="Copy compilation unit" destination="=SpringDataJDBC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.SpringDataJDBC.dao" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.SpringJDBCApi.dao{Implementers.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1720366848694" units="1" version="1.0"/>
+</session>

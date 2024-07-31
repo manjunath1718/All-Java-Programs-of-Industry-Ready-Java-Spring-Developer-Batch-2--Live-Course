@@ -1,0 +1,44 @@
+package com.telusko.controller;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.telusko.service.IGreetService;
+
+@Controller
+public class DemoController {
+
+	@Autowired
+	private IGreetService service;
+	
+//	@RequestMapping("/info1")
+//	public String getWish(Map<String,Object> map) {
+//		
+//		Object msg=service.getGreetings("john");
+//		map.put("g1", msg);
+//		return "greet1";		
+//	}
+	
+	@RequestMapping("/greet1")
+	public void getWish(Map<String,Object> map) {
+				
+		map.put("g1", service.getGreetings("john"));
+		return;		
+	}
+	
+	@RequestMapping("/greet2")
+	public Map<String,Object> getWish() {
+		Map<String,Object> map = null;	
+		map.put("g1", service.getGreetings("cris"));
+		return map;		
+	}
+	
+
+	
+	
+}

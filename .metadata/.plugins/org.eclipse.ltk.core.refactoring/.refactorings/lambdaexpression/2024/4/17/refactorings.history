@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;lambdaexpression&apos;&#x0D;&#x0A;- Original project: &apos;lambdaexpression&apos;&#x0D;&#x0A;- Original element: &apos;com.teusko.pkg1.MainCls.java&apos;" description="Delete element" element1="/src&lt;com.teusko.pkg1{MainCls.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1714229354777" subPackages="false" version="1.0"/>
+</session>

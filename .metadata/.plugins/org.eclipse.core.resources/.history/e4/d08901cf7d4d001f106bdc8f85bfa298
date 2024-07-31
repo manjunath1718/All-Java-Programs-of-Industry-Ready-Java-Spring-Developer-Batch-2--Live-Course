@@ -1,0 +1,3 @@
+spring.application.name=SpringMvcWebApp1
+spring.mvc.preffix=/
+spring.mvc.suffix=.jsp

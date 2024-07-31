@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\teluskojavaprograms\Project01Spring"/>
+			<item value="D:\teluskojavaprograms\Stream_API\src\LaunchApp2.java"/>
+			<item value="D:\teluskojavaprograms\HibernateLevel2orEhCache"/>
+			<item value="D:\teluskojavaprograms\FirstHibernateProject\src\main\java\com\telusko\app\LaunchStandardApp.java"/>
+			<item value="D:\teluskojavaprograms\Collection\src\LaunchItr1.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.telusko"/>
+			<item value="com.telusko.hibernateNew"/>
+		</list>
+		<list key="name">
+			<item value="Project07Spring"/>
+			<item value="Project05Spring"/>
+			<item value="Project04Spring"/>
+			<item value="Junit-01"/>
+			<item value="Project03Spring"/>
+			<item value="Project01Spring"/>
+			<item value="HibernateDataRetrievalHQL"/>
+			<item value="NewProject"/>
+			<item value="HibernateOneToOneUniDir"/>
+			<item value="HibernateWithoutXmlFile"/>
+			<item value="HibernateLevel2orEhCache"/>
+			<item value="Hibernatelevel2CacheMemory"/>
+			<item value="HibernateLevel2Cache"/>
+			<item value="HibernateUpdateDelete"/>
+			<item value="FirstHibernateProject"/>
+		</list>
+		<list key="artifactId">
+			<item value="Project07Spring"/>
+			<item value="Project05Spring"/>
+			<item value="Project04Spring"/>
+			<item value="Junit-01"/>
+			<item value="Project03Spring"/>
+			<item value="Project01Spring"/>
+			<item value="HibernateDataRetrievalHQL"/>
+			<item value="NewProject"/>
+			<item value="HibernateOneToOneUniDir"/>
+			<item value="HibernateWithoutXmlFile"/>
+			<item value="HibernateLevel2orEhCache"/>
+			<item value="Hibernatelevel2CacheMemory"/>
+			<item value="HibernateLevel2Cache"/>
+			<item value="HibernateUpdateDelete"/>
+			<item value="FirstHibernateProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\teluskojavaprograms\SpringMvcQueryParam"/>
+			<item value="D:\teluskojavaprograms\SpringMvcWebApp2"/>
+			<item value="D:\teluskojavaprograms\SpringMvcWebApp1"/>
+			<item value="D:\teluskojavaprograms\SpringBootMongoDb"/>
+			<item value="D:\teluskojavaprograms\SpringDataJpaProject01"/>
+			<item value="D:\teluskojavaprograms\SpringDataJDBC"/>
+			<item value="D:\teluskojavaprograms\SpringJDBCApi"/>
+			<item value="D:\teluskojavaprograms\FirstSpringBootProj"/>
+			<item value="D:\groupProject\customer-reward-program-main\customer-reward-program-main"/>
+			<item value="D:\groupProject\customer-reward-program-main"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

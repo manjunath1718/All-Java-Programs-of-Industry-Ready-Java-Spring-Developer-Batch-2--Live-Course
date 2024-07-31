@@ -1,0 +1,5 @@
+spring.application.name=SpringMvcWebApp1
+spring.mvc.view.prefix=/
+spring.mvc.view.suffix=.jsp
+spring.servlet.context-path=/GreetingApp
+server.port=8484

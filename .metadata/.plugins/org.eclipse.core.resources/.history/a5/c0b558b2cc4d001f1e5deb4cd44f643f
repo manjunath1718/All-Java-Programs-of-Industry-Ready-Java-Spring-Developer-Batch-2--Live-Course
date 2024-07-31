@@ -1,0 +1,26 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.support.BindingAwareModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller()
+public class FirstController {
+
+	@GetMapping("/info1")
+	public String getInfo(Model model) {
+		System.out.println("Model is implemented by "+model.getClass().getName());//BindingAwareModelMap
+		model.addAttribute("names", "Virat,ABD,Warner are cricketers");
+		return "home";//Logical View Name
+	}
+	
+	@GetMapping("/info2")
+	public String getTeamInfo(Model model) {
+//		BindingAwareModelMap
+//		System.out.println("Model is implemented by "+model.getClass().getName());
+		model.addAttribute("teams", "RCB+CSK+MI");
+		return "team";//LVN
+	}
+	
+}

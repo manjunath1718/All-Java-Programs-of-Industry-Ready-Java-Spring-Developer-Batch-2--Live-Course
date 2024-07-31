@@ -1,0 +1,4 @@
+spring.application.name=SpringMvcWebApp1
+spring.mvc.preffix=/
+spring.mvc.suffix=.jsp
+server.port=8484

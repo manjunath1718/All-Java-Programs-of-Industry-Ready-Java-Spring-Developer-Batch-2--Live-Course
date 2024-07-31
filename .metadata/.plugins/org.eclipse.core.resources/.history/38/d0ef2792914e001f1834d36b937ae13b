@@ -1,0 +1,22 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.telusko.model.Course;
+
+@Controller
+public class DemoController {
+
+	@GetMapping("course")
+	public String getCourse1(Model model) {
+		Course course=new Course(1, "DevOps", 4999.9);
+		model.addAttribute("course", course);
+		return "course1";		
+	}
+	
+	
+	
+	
+}

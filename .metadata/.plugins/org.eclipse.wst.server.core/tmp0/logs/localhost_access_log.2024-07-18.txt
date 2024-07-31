@@ -1,0 +1,12 @@
+127.0.0.1 - - [18/Jul/2024:20:12:07 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:12:08 +0530] "GET /Servelet06RequestDispatching/FirstServelet HTTP/1.1" 200 40
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:12:08 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [18/Jul/2024:20:12:59 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:12:59 +0530] "GET /Servelet06RequestDispatching/FirstServelet HTTP/1.1" 200 40
+127.0.0.1 - - [18/Jul/2024:20:13:32 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:13:33 +0530] "GET /Servelet06RequestDispatching/FirstServelet HTTP/1.1" 200 40
+127.0.0.1 - - [18/Jul/2024:20:14:11 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:14:12 +0530] "GET /Servelet06RequestDispatching/FirstServelet HTTP/1.1" 200 40
+127.0.0.1 - - [18/Jul/2024:23:11:26 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:23:11:27 +0530] "GET /Servelet09Jsp1/index.html HTTP/1.1" 200 596
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:23:11:34 +0530] "POST /Servelet09Jsp1/JspApp.jsp HTTP/1.1" 200 340

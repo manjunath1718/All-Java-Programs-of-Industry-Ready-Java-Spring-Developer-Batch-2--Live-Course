@@ -1,0 +1,3 @@
+spring.application.name=SpringMvcQueryParam
+spring.mvc.view.prefix=/
+spring.mvc.view.suffix=.jsp
