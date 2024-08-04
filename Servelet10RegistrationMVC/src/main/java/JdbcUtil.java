@@ -34,7 +34,7 @@ public class JdbcUtil {
 			connect.close();
 		if(stmt!=null)
 			stmt.close();
-	
-		
+			
 	}
+	
 }

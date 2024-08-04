@@ -3,6 +3,7 @@ package com.telusko.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.HandlerMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -10,7 +11,7 @@ public class DemoController {
 
 	@RequestMapping("/info1")
 	public ModelAndView getSomeInfo() {
-		
+	 
 		ModelAndView mav=new ModelAndView();
 		mav.addObject("message", "Welcome to SpringMVC Web App1");
 		mav.setViewName("index");

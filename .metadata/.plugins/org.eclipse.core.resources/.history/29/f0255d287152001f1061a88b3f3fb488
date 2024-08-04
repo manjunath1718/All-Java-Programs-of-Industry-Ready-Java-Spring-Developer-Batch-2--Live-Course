@@ -1,0 +1,6 @@
+package com.telusko.service;
+
+public interface ICustomerService {
+
+	public List<Customer> getAllCx();
+}

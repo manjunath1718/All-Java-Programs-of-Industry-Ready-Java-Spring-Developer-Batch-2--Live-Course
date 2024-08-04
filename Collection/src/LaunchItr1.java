@@ -14,6 +14,7 @@ public class LaunchItr1 {
 		list.add(150);
 		list.add(25);
 		list.add(125);
+		list.add(175);
 		
 		System.out.println(list);
 	//	Integer i=(Integer) list.get(2);
@@ -48,12 +49,10 @@ public class LaunchItr1 {
 		
 		ListIterator litr2 = list.listIterator(list.size()/2);
 		
-//		while(litr2.hasPrevious())
-//		{
+//		while(litr2.hasPrevious()){
 //			System.out.println(litr2.previous());
 //		}
-		while(litr2.hasNext())
-		{
+		while(litr2.hasNext()){
 			System.out.println(litr2.next());
 		}
 		

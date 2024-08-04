@@ -122,7 +122,7 @@ public class LaunchComplexSorting1 {
 //		});
 //		System.out.println(alist);
 		
-//		Collections.sort(alist, (o1, o2)-> (int)o1.average.compareTo(o2.average));			
+//		Collections.sort(alist, (o1, o2)-> o1.average.compareTo(o2.average));			
 //		System.out.println(alist);
 
 

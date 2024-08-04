@@ -1,0 +1,9 @@
+package com.telusko.model;
+
+public class Implementer {
+
+	Integer id;
+	String iname;
+	String icity;
+	Double isalary;
+}

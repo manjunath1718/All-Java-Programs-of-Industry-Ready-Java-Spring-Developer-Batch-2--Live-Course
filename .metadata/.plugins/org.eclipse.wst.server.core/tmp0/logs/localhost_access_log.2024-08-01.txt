@@ -1,0 +1,6 @@
+127.0.0.1 - - [01/Aug/2024:20:12:09 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:20:12:09 +0530] "GET /Servelet06RequestDispatching/FirstServelet HTTP/1.1" 200 40
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:20:12:10 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [01/Aug/2024:20:13:34 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:20:13:35 +0530] "GET /Servelet06RequestDispatching/ HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:20:13:55 +0530] "GET /Servelet06RequestDispatching/FirstServelet HTTP/1.1" 200 40

@@ -1,0 +1,25 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import jakarta.servlet.http.HttpServletResponse;
+
+@Controller
+public class RegController {
+
+	@GetMapping("/register")
+	public String home() {
+		
+		return "register";
+	}
+	
+	@PostMapping("/")
+	public String register(HttpServletResponse response) {
+		
+		return "response";
+	}
+	
+	
+}

@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -19,11 +20,15 @@ public class ServeletApp extends HttpServlet {
 		String name = request.getParameter("uname");
 		String city = request.getParameter("ucity");
 		
-		if(name.equalsIgnoreCase("rohit") || city.equalsIgnoreCase("mumbai")) {
+		if(name.equalsIgnoreCase("rohit") && city.equalsIgnoreCase("mumbai")) {
 			System.out.println("Success! Right rohit is logged in");
+			PrintWriter writer = response.getWriter();
+			writer.println("Success! Right rohit is logged in");
 		}
 		else {
 			System.out.println("Diff Rohit logged in");
+			PrintWriter writer = response.getWriter();
+			writer.println("Diff Rohit logged in");
 		}
 	}
 

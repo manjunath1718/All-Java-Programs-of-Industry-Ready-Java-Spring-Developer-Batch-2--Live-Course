@@ -10,7 +10,6 @@ import java.util.Date;
 
 public class ServeletApp extends HttpServlet {
 
-
 	int age=18;
 	public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

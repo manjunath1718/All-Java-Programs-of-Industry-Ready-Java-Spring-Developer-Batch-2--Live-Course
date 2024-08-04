@@ -1,0 +1,25 @@
+package com.telusko.model;
+
+
+public class Implementer {
+
+	Integer id;
+	String iname;
+	String icity;
+	Double isalary;
+	public Implementer(Integer id, String iname, String icity, Double isalary) {
+		super();
+		this.id = id;
+		this.iname = iname;
+		this.icity = icity;
+		this.isalary = isalary;
+	}
+	public Implementer() {
+		super();
+		
+	}
+	
+	
+	
+	
+}

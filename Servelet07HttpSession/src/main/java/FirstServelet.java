@@ -23,7 +23,7 @@ public class FirstServelet extends HttpServlet {
 
 		HttpSession session = request.getSession();
 		session.setAttribute("name", name);
-		reqDispatch.forward(request, response);
+		reqDispatch.include(request, response);
 
 
 

@@ -22,7 +22,7 @@ public class DemoController {
 	@GetMapping("/info1")//http://localhost:8484/info1?name=raj ?key=value
 	public String getSomeInfo1(@RequestParam("name")String n,Map<String,Object> map) {
 		
-		map.put("name","Hi "+n+" I hope You're fine and this is QueryParam example");
+		map.put("name","Hi "+n+" I hope You're fine and this is QueryParam ex");
 		return "index";
 	}
 	
