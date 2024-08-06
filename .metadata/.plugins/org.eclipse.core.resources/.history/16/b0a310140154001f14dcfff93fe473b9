@@ -1,0 +1,14 @@
+package com.telusko.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class AlienRestController {
+
+	@GetMapping("/greet")
+	public ResponseEntity<String> getGreetings(){
+		
+		Alien alien =new Alien();
+		return new ResponseEntity<String>(alien,HttpStatus.OK);
+	}
+}

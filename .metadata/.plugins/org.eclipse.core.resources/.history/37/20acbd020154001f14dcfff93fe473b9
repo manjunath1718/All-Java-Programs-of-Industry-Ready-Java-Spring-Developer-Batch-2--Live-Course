@@ -1,0 +1,14 @@
+package com.telusko.rest;
+
+public class Alien {
+	
+	Integer id;
+	String name;
+	String city;
+	
+	@Override
+	public String toString() {
+		return "Alien [id=" + id + ", name=" + name + "]";
+	}	
+
+}

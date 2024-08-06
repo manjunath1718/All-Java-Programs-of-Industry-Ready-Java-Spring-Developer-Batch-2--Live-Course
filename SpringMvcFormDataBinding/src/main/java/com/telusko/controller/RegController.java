@@ -28,10 +28,11 @@ public class RegController {
 //		return "response";
 //	}
 	
-	@PostMapping("/register")
-	public String register(Model model,@ModelAttribute Implementer impl) {
-		
-		model.addAttribute("impl",impl);
+	@PostMapping("/register")	
+	public String register(@ModelAttribute Implementer impl) {
+//	public String register(Model model,@ModelAttribute Implementer impl) {
+//		
+//		model.addAttribute("impl",impl);
 		return "response";
 	}
 	

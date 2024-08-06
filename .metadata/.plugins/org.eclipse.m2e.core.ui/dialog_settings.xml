@@ -103,6 +103,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\teluskojavaprograms\SpringMvcCRMWebApp"/>
 			<item value="D:\teluskojavaprograms\spring-boot-demo-master"/>
 			<item value="D:\teluskojavaprograms\SpringMvcQueryParam"/>
 			<item value="D:\teluskojavaprograms\SpringMvcWebApp2"/>
