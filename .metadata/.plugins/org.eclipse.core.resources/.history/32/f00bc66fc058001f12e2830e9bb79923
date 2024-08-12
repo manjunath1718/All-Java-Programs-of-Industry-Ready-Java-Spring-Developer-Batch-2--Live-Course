@@ -1,0 +1,3 @@
+spring.application.name=SpringBoot-Actuators
+server.port=8484
+

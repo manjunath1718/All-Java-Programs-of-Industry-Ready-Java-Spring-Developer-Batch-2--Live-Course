@@ -1,0 +1,20 @@
+package com.telusko.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Tourist {
+
+	@Id
+	private Integer id;
+
+	private String name;
+
+	private String city;
+
+	private String packageType;
+
+	private Double budget;
+
+}

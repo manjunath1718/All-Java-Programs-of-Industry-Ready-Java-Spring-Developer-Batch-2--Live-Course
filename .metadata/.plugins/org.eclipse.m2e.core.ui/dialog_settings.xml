@@ -69,6 +69,7 @@
 			<item value="FirstHibernateProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="JacksonApi1"/>
 			<item value="Project07Spring"/>
 			<item value="Project05Spring"/>
 			<item value="Project04Spring"/>
@@ -83,7 +84,6 @@
 			<item value="Hibernatelevel2CacheMemory"/>
 			<item value="HibernateLevel2Cache"/>
 			<item value="HibernateUpdateDelete"/>
-			<item value="FirstHibernateProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -103,6 +103,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\teluskojavaprograms\TouristManagementApp"/>
+			<item value="D:\teluskojavaprograms\SpringMvcRESTApi1"/>
+			<item value="D:\teluskojavaprograms\SpringMvcCRMAppTh"/>
+			<item value="D:\teluskojavaprograms\CRMTh"/>
+			<item value="D:\teluskojavaprograms\SpringMvcCRMTh"/>
 			<item value="D:\teluskojavaprograms\SpringMvcCRMWebApp"/>
 			<item value="D:\teluskojavaprograms\spring-boot-demo-master"/>
 			<item value="D:\teluskojavaprograms\SpringMvcQueryParam"/>
@@ -113,8 +118,6 @@
 			<item value="D:\teluskojavaprograms\SpringDataJDBC"/>
 			<item value="D:\teluskojavaprograms\SpringJDBCApi"/>
 			<item value="D:\teluskojavaprograms\FirstSpringBootProj"/>
-			<item value="D:\groupProject\customer-reward-program-main\customer-reward-program-main"/>
-			<item value="D:\groupProject\customer-reward-program-main"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

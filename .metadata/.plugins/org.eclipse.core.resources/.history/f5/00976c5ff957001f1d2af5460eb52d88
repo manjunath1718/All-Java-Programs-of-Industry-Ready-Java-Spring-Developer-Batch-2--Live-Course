@@ -1,0 +1,62 @@
+package com.telusko.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.telusko.dao.TouristRepo;
+import com.telusko.exception.TouristNotFoundException;
+import com.telusko.model.Tourist;
+@Service
+public class TouristServiceImpl implements ITouristService {
+
+	@Autowired
+	TouristRepo repo;
+	
+	@Override
+	public String registerTourist(Tourist tourist) {
+		
+		Tourist touristdb = repo.save(tourist);
+		return "Tourist Info is registered successfully with id "+ touristdb.getId();
+	}
+	
+	@Override
+	public Tourist fetchTouristById(Integer id) {
+//		Optional<Tourist> optional = repo.findById(id);
+//		if(optional.isPresent()) {
+//			return optional.get();
+//		}else {
+//			throw new TouristNotFoundException("Tourist with id "+id+" Not Found");
+//		}
+		return repo.findById(id).orElseThrow(()->new TouristNotFoundException("Tourist with id "+id+" Not Found"));
+	}
+
+	@Override
+	public List<Tourist> fetchAllTourists() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateTouristPackageType(Integer id, String packageType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateTourist(Tourist tourist) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

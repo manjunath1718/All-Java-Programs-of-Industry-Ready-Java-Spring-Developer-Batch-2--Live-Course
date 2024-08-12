@@ -37,19 +37,20 @@ public class CustomerController {
 		
 	}
 	
-	@GetMapping("/updateForm")
-	public String updateCustomer(@ModelAttribute Customer customer){
-		System.out.println("Update customer");
-		System.out.println(customer);
-		service.registerCustomer(customer);
-		return "showform";
-	}
-	
 //	@GetMapping("/updateForm")
-//	public String updateCustomer(@ModelAttribute Customer customer) {
-//
-//		return "update";		
+//	public String updateCustomer(@ModelAttribute Customer customer){
+//		System.out.println("Update customer");
+//		System.out.println(customer);
+//		service.registerCustomer(customer);
+//		return "showform";
 //	}
+	
+	@GetMapping("/updateForm")
+	public String updateCustomer(@ModelAttribute Customer customer) {
+
+//		System.out.println("customer Id "+customer.getId());
+		return "update";		
+	}
 	
 	@GetMapping("/deleteData")
     public String deleteCustomer(@RequestParam Integer id){

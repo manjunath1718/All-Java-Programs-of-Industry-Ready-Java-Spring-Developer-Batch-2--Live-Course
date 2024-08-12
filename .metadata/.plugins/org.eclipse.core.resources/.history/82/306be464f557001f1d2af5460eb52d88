@@ -1,0 +1,45 @@
+package com.telusko.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.telusko.dao.TouristRepo;
+import com.telusko.model.Tourist;
+@Service
+public class TouristServiceImpl implements ITouristService {
+
+	@Autowired
+	TouristRepo repo;
+	
+	@Override
+	public String registerTourist(Tourist tourist) {
+		tourist.
+		return null;
+	}
+
+	@Override
+	public List<Tourist> fetchAllTourists() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateTouristPackageType(Integer id, String packageType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateTourist(Tourist tourist) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

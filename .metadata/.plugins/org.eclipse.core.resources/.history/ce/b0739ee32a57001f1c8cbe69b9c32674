@@ -1,0 +1,13 @@
+
+public class Alien {
+
+	Integer id;
+	String name;
+	String city;
+	String hobbies;
+	Course course;
+	
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+spring.application.name=TouristManagementApp
+spring.data.mongodb.database=implementer
+spring.data.mongodb.port=27017
+spring.data.mongodb.host=localhost
+spring.port=8484
