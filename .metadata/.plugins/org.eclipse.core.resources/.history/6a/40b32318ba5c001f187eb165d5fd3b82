@@ -1,0 +1,14 @@
+package com.telusko.rest;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+
+@WebMvcTest
+public class GreetingRestControllerTest {
+
+	@Test
+	public void testgenerateGreetingUnit(){
+		
+		
+	}
+}

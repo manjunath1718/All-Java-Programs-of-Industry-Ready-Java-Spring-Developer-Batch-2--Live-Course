@@ -1,0 +1,26 @@
+package com.telusko.rest;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.telusko.service.IGreetingService;
+
+@WebMvcTest
+public class GreetingRestControllerTest {
+
+	@MockBean
+	IGreetingService service;
+	
+	@Autowired
+	MockMvc mockmvc;
+	
+	@Test
+	public void testgenerateGreetingUnit(){
+		
+		
+		
+	}
+}

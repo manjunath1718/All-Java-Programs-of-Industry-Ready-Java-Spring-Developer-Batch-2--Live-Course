@@ -1,0 +1,10 @@
+package com.telusko.model;
+
+public class Course {
+
+	Integer cid;
+	String cname;
+	Double cprice;
+	
+	
+}

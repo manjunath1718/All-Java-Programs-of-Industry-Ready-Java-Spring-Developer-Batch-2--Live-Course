@@ -103,6 +103,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\teluskojavaprograms\SpringBoot Actuators"/>
 			<item value="D:\teluskojavaprograms\TouristManagementApp"/>
 			<item value="D:\teluskojavaprograms\SpringMvcRESTApi1"/>
 			<item value="D:\teluskojavaprograms\SpringMvcCRMAppTh"/>
@@ -117,7 +118,6 @@
 			<item value="D:\teluskojavaprograms\SpringDataJpaProject01"/>
 			<item value="D:\teluskojavaprograms\SpringDataJDBC"/>
 			<item value="D:\teluskojavaprograms\SpringJDBCApi"/>
-			<item value="D:\teluskojavaprograms\FirstSpringBootProj"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
