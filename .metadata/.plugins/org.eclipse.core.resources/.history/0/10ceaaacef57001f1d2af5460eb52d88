@@ -1,9 +1,0 @@
-package com.telusko.dao;
-
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-import com.telusko.model.Tourist;
-
-public class TouristRepo implements MongoRepository<Tourist, Integer>{
-
-}

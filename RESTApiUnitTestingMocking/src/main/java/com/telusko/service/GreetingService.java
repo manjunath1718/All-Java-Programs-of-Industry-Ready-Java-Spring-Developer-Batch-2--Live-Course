@@ -4,6 +4,8 @@ import java.time.LocalTime;
 
 import org.springframework.stereotype.Service;
 
+import com.telusko.model.Tourist;
+
 @Service
 public class GreetingService implements IGreetingService {
 
@@ -24,6 +26,13 @@ public class GreetingService implements IGreetingService {
 
 		return response;
 
+	}
+
+	@Override
+	public Boolean acceptTourist(Tourist tourist) {
+		
+		String msg ="Welcome to our app Tourist";
+		return true;
 	}
 
 }

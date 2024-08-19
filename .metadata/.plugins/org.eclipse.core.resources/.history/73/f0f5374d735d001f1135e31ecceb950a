@@ -1,0 +1,9 @@
+package com.telusko.model;
+
+public class Tourist {
+	
+	Integer id;
+	String name;
+	String city;
+
+}

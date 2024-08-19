@@ -1,7 +1,0 @@
-package com.telusko.dao;
-
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-public interface TouristRepo extends MongoRepository<T, ID> {
-
-}
