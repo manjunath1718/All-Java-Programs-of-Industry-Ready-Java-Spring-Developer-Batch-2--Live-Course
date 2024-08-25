@@ -1,0 +1,20 @@
+package com.telusko.service;
+
+import com.telusko.model.Passenger;
+import com.telusko.model.Ticket;
+
+public class TicketBookingService implements ITicketBookingService {
+
+	@Override
+	public Ticket registerPassenger(Passenger passenger) {
+		
+		return null;
+	}
+
+	@Override
+	public Ticket fetchPassenger(Integer ticketNumber) {
+		
+		return null;
+	}
+
+}

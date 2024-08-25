@@ -29,8 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.example"/>
 		</list>
 		<list key="groupId">
+			<item value="com.example"/>
 		</list>
 		<list key="artifactId">
 		</list>
@@ -48,42 +50,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.telusko"/>
-			<item value="com.telusko.hibernateNew"/>
+			<item value="com.example"/>
 		</list>
 		<list key="name">
-			<item value="Project07Spring"/>
-			<item value="Project05Spring"/>
-			<item value="Project04Spring"/>
-			<item value="Junit-01"/>
-			<item value="Project03Spring"/>
-			<item value="Project01Spring"/>
-			<item value="HibernateDataRetrievalHQL"/>
-			<item value="NewProject"/>
-			<item value="HibernateOneToOneUniDir"/>
-			<item value="HibernateWithoutXmlFile"/>
-			<item value="HibernateLevel2orEhCache"/>
-			<item value="Hibernatelevel2CacheMemory"/>
-			<item value="HibernateLevel2Cache"/>
-			<item value="HibernateUpdateDelete"/>
-			<item value="FirstHibernateProject"/>
 		</list>
 		<list key="artifactId">
-			<item value="JacksonApi1"/>
-			<item value="Project07Spring"/>
-			<item value="Project05Spring"/>
-			<item value="Project04Spring"/>
-			<item value="Junit-01"/>
-			<item value="Project03Spring"/>
-			<item value="Project01Spring"/>
-			<item value="HibernateDataRetrievalHQL"/>
-			<item value="NewProject"/>
-			<item value="HibernateOneToOneUniDir"/>
-			<item value="HibernateWithoutXmlFile"/>
-			<item value="HibernateLevel2orEhCache"/>
-			<item value="Hibernatelevel2CacheMemory"/>
-			<item value="HibernateLevel2Cache"/>
-			<item value="HibernateUpdateDelete"/>
+			<item value="TicketBookingWebAppRestTemplate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -103,6 +75,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\teluskojavaprograms\TicketBookingWebApp"/>
 			<item value="D:\teluskojavaprograms\SpringBoot Actuators"/>
 			<item value="D:\teluskojavaprograms\TouristManagementApp"/>
 			<item value="D:\teluskojavaprograms\SpringMvcRESTApi1"/>
@@ -117,7 +90,24 @@
 			<item value="D:\teluskojavaprograms\SpringBootMongoDb"/>
 			<item value="D:\teluskojavaprograms\SpringDataJpaProject01"/>
 			<item value="D:\teluskojavaprograms\SpringDataJDBC"/>
-			<item value="D:\teluskojavaprograms\SpringJDBCApi"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

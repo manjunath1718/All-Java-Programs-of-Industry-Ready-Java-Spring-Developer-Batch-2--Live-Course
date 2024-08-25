@@ -1,0 +1,28 @@
+package com.telusko.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.telusko.model.Passenger;
+import com.telusko.model.Ticket;
+
+@Controller
+public class TicketBookingController {
+
+	
+	@GetMapping("/form")
+	public String getForm() {
+		
+		return "index";
+	}
+	
+	@PostMapping("/book-ticket")
+	public ResponseEntity<Ticket> registerPassenger(@RequestBody Passenger passenger){
+		
+		return new ResponseEntity<Ticket>(ticket)
+	}
+	
+}

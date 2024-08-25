@@ -1,0 +1,41 @@
+package com.telusko.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.telusko.model.Passenger;
+import com.telusko.model.Ticket;
+import com.telusko.service.ITicketBookingService;
+
+@Controller
+public class TicketBookingController {
+
+	@Autowired
+	ITicketBookingService service;
+	
+	@GetMapping("/form")
+	public String getForm() {
+		
+		return "index";
+	}
+	
+	@PostMapping("/book-ticket")
+	public String registerPassenger(@RequestBody Passenger passenger,Model model){
+		
+		Ticket ticket = service.registerPassenger(passenger);
+		model.addAttribute("ticketNumber", ticket.getTicketNumber());
+		return "index";
+	}
+	
+	@GetMapping("/ticket")
+	public String getTicketForm() {
+		
+		return "ticket-form";
+	}
+	
+}

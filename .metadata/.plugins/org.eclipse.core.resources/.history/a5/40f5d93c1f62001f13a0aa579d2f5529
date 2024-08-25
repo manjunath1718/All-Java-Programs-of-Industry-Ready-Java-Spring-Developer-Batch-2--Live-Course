@@ -1,0 +1,8 @@
+spring.application.name=TicketBookingApi
+
+server.port=8484
+
+#datasource configuration 
+spring.datasource.url=jdbc:mysql://localhost:3306/implementers
+spring.datasource.password=root
+spring.datasource.username=root
