@@ -1,8 +1,0 @@
-package com.telusko.service;
-
-public interface IGreetingService {
-	
-	public String generateGreeting(); 
-	public String addTourist(Tourist tourist);
-
-}

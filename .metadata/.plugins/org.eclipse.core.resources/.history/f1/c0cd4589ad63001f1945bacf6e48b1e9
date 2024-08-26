@@ -1,0 +1,9 @@
+package com.telusko.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class WhatsAppController {
+
+	
+}

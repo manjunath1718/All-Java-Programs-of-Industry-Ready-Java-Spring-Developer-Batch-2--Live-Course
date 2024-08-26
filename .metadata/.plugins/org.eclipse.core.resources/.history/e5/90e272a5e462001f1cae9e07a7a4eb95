@@ -1,0 +1,39 @@
+package com.telusko;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import com.telusko.model.Ticket;
+import com.telusko.service.TicketBookingService;
+
+@SpringBootApplication
+public class TicketBookingWebAppRestTempApplication {
+
+	private static String TICKET_INFO_URL=
+			"http://localhost:8585/TicketBookingAPI/api/book-ticket/getTicket/{ticketNumber}";
+
+	public static void main(String[] args) {
+		SpringApplication.run(TicketBookingWebAppRestTempApplication.class, args);
+
+		System.out.println("Request to API started");
+			
+			WebClient webClient = WebClient.create();
+		    webClient.get()
+			.uri(TICKET_INFO_URL, ticketNumber)
+			.retrieve()
+			.bodyToMono(String.class)
+			.subscribe(TicketBookingService::handleRespone);
+		
+		    System.out.println("Request to api ended");
+//			return response;
+					
+	
+	}
+	
+	public static void handleRespone(String ticket){
+		
+		System.out.println(ticket);
+	}
+
+}

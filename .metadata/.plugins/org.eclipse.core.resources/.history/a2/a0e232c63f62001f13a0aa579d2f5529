@@ -1,3 +1,0 @@
-spring.application.name=TicketBookingWebAppRestTemplate
-server.servlet.context-path=/TicketBookingWebApp
-server.port=8844
