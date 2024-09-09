@@ -22,10 +22,16 @@ public class TouristServiceImpl implements ITouristService {
 		return "Tourist Info is registered successfully with id "+ touristdb.getId();
 	}
 	
+//	@Override
+//	public Tourist fetchTouristById(String id) {
+//
+//		return repo.findById(id).orElseThrow(()->new TouristNotFoundException("Tourist with id "+id+" Not Found"));
+//	}
+	
 	@Override
 	public Tourist fetchTouristById(String id) {
 
-		return repo.findById(id).orElseThrow(()->new TouristNotFoundException("Tourist with id "+id+" Not Found"));
+		return repo.findById(id).get();
 	}
 
 	@Override

@@ -1,0 +1,4 @@
+spring.application.name=SpringMvcRESTApi1
+
+spring.profiles.active=dev
+spring.profiles.include=devOps

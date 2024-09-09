@@ -1,0 +1,11 @@
+package com.telusko.service;
+
+public class Mockito implements Course {
+
+	@Override
+	public boolean buyCourse(Double cost) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,5 @@
+spring.application.name=SpringMvcRESTApi1
+
+spring.profiles.active=prod
+spring.profiles.include=mock
+spring.main.allow-circular-references=true

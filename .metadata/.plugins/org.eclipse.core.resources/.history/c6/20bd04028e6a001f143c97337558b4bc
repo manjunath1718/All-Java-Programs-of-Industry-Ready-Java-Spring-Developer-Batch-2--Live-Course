@@ -1,0 +1,12 @@
+package com.telusko.service;
+
+public class SpringBoot implements Course {
+
+	@Override
+	public boolean buyCourse(Double cost) {
+		
+		System.out.println("SpringBoot course is purchased and cost is "+cost);
+		return true;
+	}
+
+}

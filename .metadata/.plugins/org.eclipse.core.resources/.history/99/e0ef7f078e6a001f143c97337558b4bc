@@ -1,0 +1,12 @@
+package com.telusko.service;
+
+public class DevOps implements Course {
+
+	@Override
+	public boolean buyCourse(Double cost) {
+		
+		System.out.println("DevOps course is purchased and cost is "+cost);
+		return true;
+	}
+
+}

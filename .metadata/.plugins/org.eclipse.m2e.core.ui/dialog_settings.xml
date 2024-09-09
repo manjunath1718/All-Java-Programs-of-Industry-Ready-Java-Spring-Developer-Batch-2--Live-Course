@@ -75,6 +75,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\teluskojavaprograms\SpringMultiDb_"/>
+			<item value="D:\teluskojavaprograms\SpringBeanLC"/>
 			<item value="D:\teluskojavaprograms\BackEndSMProject"/>
 			<item value="D:\teluskojavaprograms\TicketBookingWebApp"/>
 			<item value="D:\teluskojavaprograms\SpringBoot Actuators"/>
@@ -88,8 +90,6 @@
 			<item value="D:\teluskojavaprograms\SpringMvcQueryParam"/>
 			<item value="D:\teluskojavaprograms\SpringMvcWebApp2"/>
 			<item value="D:\teluskojavaprograms\SpringMvcWebApp1"/>
-			<item value="D:\teluskojavaprograms\SpringBootMongoDb"/>
-			<item value="D:\teluskojavaprograms\SpringDataJpaProject01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

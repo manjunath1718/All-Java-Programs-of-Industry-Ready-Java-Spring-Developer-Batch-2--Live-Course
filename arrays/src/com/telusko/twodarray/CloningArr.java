@@ -14,6 +14,7 @@ public class CloningArr {
 			System.out.println(arr1[i]);
 		}
 		
+		
 
 	}
 

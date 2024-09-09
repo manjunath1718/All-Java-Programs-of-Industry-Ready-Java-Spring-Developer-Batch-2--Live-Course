@@ -1,6 +1,0 @@
-spring.application.name=TicketBookingApi
-
-server.port=8484
-
-#datasource configuration 
-

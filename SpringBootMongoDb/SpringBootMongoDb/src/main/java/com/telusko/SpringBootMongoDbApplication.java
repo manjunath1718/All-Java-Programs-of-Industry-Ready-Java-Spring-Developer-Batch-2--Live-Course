@@ -16,18 +16,18 @@ public class SpringBootMongoDbApplication {
 		
 		CustomerService service = container.getBean(CustomerService.class);
 		
-		CustomerDto dto= new CustomerDto();
-		dto.setId(IdGenerator.generateId());
-		dto.setCxNo(181);
-		dto.setName("david");
-		dto.setCity("melborne");
-		
-		String msg = service.registerCustomerInfo(dto);
-		System.out.println(msg);
+//		CustomerDto dto= new CustomerDto();
+//		dto.setId(IdGenerator.generateId());
+//		dto.setCxNo(181);
+//		dto.setName("david");
+//		dto.setCity("melborne");
+//		
+//		String msg = service.registerCustomerInfo(dto);
+//		System.out.println(msg);
 		
 //		service.deleteDocument("f02f724ee0");
 		
-//		service.fetchAllCx().forEach(c->System.out.println(c));
+		service.fetchAllCx().forEach(c->System.out.println(c));
 		
 		
 	}
