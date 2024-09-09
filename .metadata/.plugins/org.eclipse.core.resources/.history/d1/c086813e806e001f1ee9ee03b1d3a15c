@@ -1,0 +1,15 @@
+package com.telusko.model;
+
+import lombok.Data;
+
+@Data
+public class Country {
+
+	private Integer no;
+
+	private String name;
+
+	private String countryCode;
+
+
+}

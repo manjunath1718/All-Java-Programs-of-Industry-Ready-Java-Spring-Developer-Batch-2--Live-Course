@@ -1,9 +1,11 @@
 package com.telusko.config;
 
+
 import java.util.HashMap;
 
 import javax.sql.DataSource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -24,17 +26,28 @@ import jakarta.persistence.EntityManagerFactory;
 @EnableJpaRepositories(entityManagerFactoryRef="db1EntityManager",
 transactionManagerRef="db1TransactionManager", basePackages="com.telusko.repo.cx")
 public class Db1Config {
-
+	
 	@Bean
 	@Primary
 	@ConfigurationProperties(prefix="db1.datasource")
 	public DataSource db1DataSource(){
+		
 		return DataSourceBuilder.create().build();
 	}
+	
+//	@Bean
+//    public EntityManagerFactoryBuilder entityManagerFactoryBuilder() {
+//        return new EntityManagerFactoryBuilder(
+//            new org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter(),
+//            new java.util.HashMap<>(),
+//            null
+//        );
+//    }
 	
 	@Bean
 	@Primary
 	public LocalContainerEntityManagerFactoryBean db1EntityManager(EntityManagerFactoryBuilder emfb){
+	
 		HashMap<String, Object> properties =new HashMap<>();
 		
 		properties.put("hibernate.ddl-auto","update");
@@ -45,7 +58,7 @@ public class Db1Config {
 		return emfb.dataSource(db1DataSource())
 				.packages("com.telusko.model.customer")
 				.properties(properties)
-				.persistenceUnit("telusko_db")
+				.persistenceUnit("t_db")
 				.build();	
 	}
 	
@@ -54,7 +67,9 @@ public class Db1Config {
 	@Primary
 	public PlatformTransactionManager db1TransactionManager
 	(@Qualifier("db1EntityManager")EntityManagerFactory factory){
+	
 		return new JpaTransactionManager(factory);
 	}
 	
 }
+
