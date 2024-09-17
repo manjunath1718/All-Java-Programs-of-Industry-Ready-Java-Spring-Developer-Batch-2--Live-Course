@@ -1,0 +1,6 @@
+package com.telusko.util;
+
+public class AppConstants {
+
+	public final String HOST_URL = "";
+}

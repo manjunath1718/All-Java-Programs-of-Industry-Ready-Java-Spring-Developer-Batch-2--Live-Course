@@ -1,0 +1,8 @@
+spring.application.name=SpringSecurity1
+
+server.port=8484
+
+spring.security.user.name=abd
+spring.security.user.password=alien
+
+#server.servlet.session.cookie.same-site=strict

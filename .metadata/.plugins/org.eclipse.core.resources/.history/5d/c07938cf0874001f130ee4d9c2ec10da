@@ -1,0 +1,23 @@
+package com.telusko.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ResourceController {
+
+	@GetMapping("/info")
+	public String getInfo(){
+		
+		return "this is spring security learning program";
+	}
+	
+	@GetMapping("/moreinfo")
+	public String getMoreInfo(){
+		
+		return "spring security is about who can access what resources";
+	}
+	
+	
+	
+}

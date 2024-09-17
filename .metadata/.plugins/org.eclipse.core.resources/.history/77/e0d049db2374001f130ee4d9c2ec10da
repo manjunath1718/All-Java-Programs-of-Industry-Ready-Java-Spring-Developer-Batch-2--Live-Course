@@ -1,0 +1,10 @@
+package com.telusko.model;
+
+public class Student {
+
+	Integer id;
+	String name;
+	String course;
+	
+	
+}
